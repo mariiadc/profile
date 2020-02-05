@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+
+
+body {
+  color: rgb(10,10,10);
+  font-family: Roboto, sans-serif;
+  background-color: #F2EFF2;
+}
+
+h1 {
+  font-size: 32px;
+  color: #3C415E;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(107, 114, 225);
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 60px auto; /* This automatically sets left/right margins */
+}
+
+.card-white {
+  background-color: #FCFCFC;
+  width: 700px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+}
+#img-circle {
+  border-radius: 50%;
+}
+
+.button-green {
+  border-radius: 4px;
+  background-color: #73A580;
+  color: white;
+  padding: 15px 20px;
+}
+.button-green:hover {
+  background-color: #ECD5D6;
+  font-size: 20px;
+}
+
+p {
+  margin: 40px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: pink;
+  font-size: 60px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card-white {width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+  .card-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card-white {
+    width: 300px;
+  }
+}
