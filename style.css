@@ -7,6 +7,7 @@ body {
   color: rgb(10,10,10);
   font-family: Roboto, sans-serif;
   background-color: #F2EFF2;
+  margin: 0 auto;
 }
 
 h1 {
@@ -26,7 +27,7 @@ a {
 
 .container {
   width: 700px;   /* This sets the width */
-  margin: 60px auto; /* This automatically sets left/right margins */
+  margin: 30px auto; /* This automatically sets left/right margins */
 }
 
 .card-white {
@@ -34,9 +35,13 @@ a {
   width: 700px;
   margin: 40px auto;
   padding: 40px;
-  border-radius: 4px;
+  border-radius: 7px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
   text-align: center;
+}
+
+.card-white p {
+  text-align: justify;
 }
 #img-circle {
   border-radius: 50%;
@@ -64,6 +69,7 @@ p {
 .list-inline li {
   display: inline;
   padding: 10px;
+  color: rgb(230, 230, 230);
 }
 
 .list-inline i {
@@ -84,7 +90,7 @@ p {
   .container {
     width: 700px;
   }
-  .card-white {width: 700px;
+  .card-white {width: 650px;
   }
 }
 @media (max-width: 720px) {
@@ -94,7 +100,7 @@ p {
   }
 
   .card-white {
-    width: 500px;
+    width: 450px;
   }
 }
 @media (max-width: 540px) {
@@ -103,6 +109,6 @@ p {
     width: 300px;
   }
   .card-white {
-    width: 300px;
+    width: 250px;
   }
 }
